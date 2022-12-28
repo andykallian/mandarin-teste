@@ -132,3 +132,40 @@ footer .bottom{
   align-items: center;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 650px)  {
+  
+  .container{
+    width: 100%;
+  }
+
+  .container img{
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .text-container{
+    text-align: center;
+  }
+
+  .news-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container img{
+    margin-bottom: 0;
+  }
+
+  .news-box{
+    width: 90%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  footer .bottom{
+    text-align: center;
+    gap: 5px;
+  }
+}
